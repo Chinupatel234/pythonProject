@@ -1,0 +1,6 @@
+n = float(input("Enter the number: "))
+int_num = int(n)
+r_num = round(n)
+print("The number is modified in two ways: ", int_num, "and", r_num)
+r1_num = round(n, 3)
+print("The other modified manner is: ", r1_num)
