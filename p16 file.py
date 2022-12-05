@@ -1,0 +1,7 @@
+file = open("d:\\chinmay.txt", "r")
+read = file.read(20)
+read1 = file.readline()
+read2 = file.readlines()
+print(read)
+print(read1)
+print(read2)
